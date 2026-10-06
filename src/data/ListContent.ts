@@ -5,3 +5,9 @@ export const ListContent: ListFormat[] = [
     {title: "Népszerű állatok", items: ["Oroszlán", "Zsiráf", "Panda", "Elefánt", "Pingvin"]},
     {title: "Táplálkozás", items: ["Növényevő", "Húsevő", "Mindenevő", "Gyümölcsevő", "Rovarokkal táplálkozó"]}
 ]
+
+export const TudnivalokListContent: ListFormat = {
+    title: "Amit érdemes megjegyezni", items: ["Minden állatfajnak sajátos táplálkozási igényei vannak.", 
+        "Az állatok életkora és testsúlya fajonként, illetve egyedenként eltérhet."
+    ]
+}
